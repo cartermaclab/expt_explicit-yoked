@@ -1,0 +1,165 @@
+---
+title             : "Increased perceptions of autonomy through choice fail to enhance motor skill retention"
+shorttitle        : "Autonomy-support not beneficial for learning"
+
+author: 
+  - name          : "Laura St. Germain"
+    affiliation   : "1"
+    corresponding : no    # Define only one corresponding author
+    role:         # Contributorship roles (e.g., CRediT, https://casrai.org/credit/)
+      - Conceptualization
+      - Data curation
+      - Formal analysis
+      - Investigation - Performed the experiment
+      - Methodology
+      - Project administration
+      - Software - Task Programming
+      - Validation
+      - Visualization
+      - Writing - Original Draft Preparation
+      - Writing - Review & Editing
+  - name          : "Allison Williams"
+    affiliation   : "1"
+    role:
+      - Investigation - Performed the experiment
+      - Writing - Original Draft Preparation
+      - Writing - Review & Editing
+  - name          : "Noura Balbaa"
+    affiliation   : "1"
+    role:
+      - Investigation - Performed the experiment
+      - Writing - Original Draft Preparation
+      - Writing - Review & Editing
+  - name          : "Andrew Poskus"
+    affiliation   : "1"
+    role:
+      - Investigation - Performed the experiment
+      - Writing - Review & Editing
+  - name          : "Olena Leshchyshen"
+    affiliation   : "1"
+    role:
+      - Investigation - Performed the experiment
+      - Writing - Review & Editing
+  - name          : "Keith R. Lohse"
+    affiliation   : "2"
+    role:
+      - Conceptualization
+      - Data curation
+      - Formal analysis
+      - Methodology
+      - Validation
+      - Writing - Original Draft Preparation
+      - Writing - Review & Editing
+  - name          : "Michael J. Carter"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "1280 Main Street West, Ivor Wynne Centre Room 203, McMaster University, Hamilton ON Canada, L8S 4K1"
+    email         : "michaelcarter@mcmaster.ca"
+    role:         # Contributorship roles (e.g., CRediT, https://casrai.org/credit/)
+      - Conceptualization
+      - Data curation
+      - Formal analysis
+      - Funding acquisition
+      - Methodology
+      - Project administration
+      - Resources
+      - Software - Task Programming
+      - Supervision
+      - Validation
+      - Visualization
+      - Writing - Original Draft Preparation
+      - Writing - Review & Editing
+
+affiliation:
+  - id            : "1"
+    institution   : "Department of Kinesiology, McMaster University"
+  - id            : "2"
+    institution   : "Program in Physical Therapy, Washington University School of Medicine in Saint Louis"
+
+authornote: |
+  \addORCIDlink{Michael J. Carter}{0000-0002-0675-4271}
+  
+  We have outlined author contributions using CRediT (Contributor Roles Taxonomy - https://casrai.org/credit/).
+
+
+abstract: |
+  There has been growing research interest in the effects that motivation plays in motor learning, and specifically how different manipulations that affect autonomy, perceptions of competence, and social relatedness may directly benefit the learning process. In the present study, we present a well-powered (80%, N = 150) pre-registered manipulation of autonomy support by providing learners with choice during the practice of a speed cup-stacking skill. One group was given control over when a video demonstration was provided and the speed with which the demonstration was played. A yoked control group received an identical schedule of the demonstrations, but no choice (as their schedule was matched to a participant with choice). Critically, we also address a gap in the literature by adding a yoked control group who was explicitly told that they were being denied choice and that their schedule was chosen by another participant. (In the traditional yoked group, participants are merely told the schedule is determined in advance.) We found no statistically significant differences between groups in their learning of the cup-stacking skill, despite finding evidence that providing choice increased perceived autonomy (internally validating the manipulation). The two-one-side-test procedure further showed that although the groups were not statistically equivalent, the effect size is likely too small to practically study the effects of autonomy-support through choice in most motor learning labs. The current study not only adds to a growing body of research that questions the direct causal role that autonomy-support has on learning, but also the robustness of the so-called self-controlled learning advantage.
+  
+keywords          : "Motor learning; Pre-registered; Self-controlled; Observation; Equivalence testing"
+wordcount         : "X"
+
+bibliography      : ["references.bib"]
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : no
+mask              : no
+draft             : no
+
+csl               : "apa-single-spaced.csl"
+documentclass     : "apa7"
+classoption       : "jou" # man for manuscript & jou for journal
+output            : papaja::apa6_pdf
+header-includes   :
+  - \raggedbottom
+  - \leftheader{St. Germain et al. 2021}
+#   - \usepackage{lineno}
+#   - \pagewiselinenumbers
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+r_refs("r-references.bib")
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+A popular recommendation in recent years for creating an effective environment for motor skill learning has been to allow the learner to take control over an element of their practice that is traditionally controlled by a coach, therapist, or teacher [@sanli2013; @ste-marie2019]. This recommendation is based on the consistent finding that participants in a self-controlled (i.e., choice) group perform with higher proficiency compared to participants in a yoked (i.e., control) group on delayed retention and/or transfer tests. Participants in the yoked group do not experience the same choice opportunity provided to those in the self-controlled group. Instead, they are linked to a self-controlled participant and experience this participant's self-selected practice schedule. This so-called self-controlled learning advantage has been shown when participants are given the opportunity to schedule task difficulty *()*, the order that multiple tasks are practiced *()*, the frequency of watching a modeled demonstration *()*, and when to receive augmented feedback *()*.
+
+Over the years, this manipulation has been described using a variety of names *()*, but more recently it has been subsumed by autonomy-support. In fact, autonomy-support is considered such a robust learning variable that it is one of three key pillars in the recently proposed "OPTIMAL" theory of motor learning *()*. Wulf and Lewthwaite argued that providing learners with opportunities for choice---considered an autonomy-supportive practice manipulation---can facilitate motor performance and learning by enhancing learner's expectancies for success, and by allowing the learner to maintain their attentional focus on the task by reducing the need for self-regulatory activity *()*. In other words, these psychological and attentional benefits, and concomitant increases in performance and learning are a by-product of experiencing choice opportunities during practice. Overall, autonomy-support is seen as a means to efficient goal-action coupling *()* and also links the "OPTIMAL" theory with Self-Determination theory *()*.
+
+Despite its prominent role within the "OPTIMAL" theory of motor learning, there are numerous reasons to doubt the importance of autonomy-support through the provision of choice during practice. First, if the benefits are the result of having opportunities for choice then learning differences should not emerge between different self-controlled groups. However, in experiments where different groups of participants have choice over their feedback schedule, such learning differences have been found when this choice is made after rather than before a performance attempt *()*, when different criteria for success are provided to participants *()*, and when the absolute number of feedback choice opportunities are limited compared to unlimited at the outset of practice *()*. Second, there has been little-to-no support for the notion that practicing in a self-controlled group is perceived as more autonomy-supportive than being in a yoked group. Ste-Marie and colleagues *()*, for example, had participants in the self-controlled and yoked groups complete the perceived choice subscale of the Intrinsic Motivation Inventory and failed to find the expected effect of higher self-reported scores during practice in the self-controlled group. Similar findings have been reported by others *()*; however, McKay & Ste-Marie *()* recently found that practicing in a self-controlled group was perceived as more autonomy-supportive than practicing the same task in a yoked group. This increased perceived autonomy-support did not, however, translate into enhanced learning compared to the yoked group. Although the available literature does not provide substantial evidence that self-controlled practice is autonomy-supportive, this does not necessarily mean such a manipulation is not autonomy-supportive *()*. For instance, this effect may in fact be quite small and require much larger sample sizes to detect *()* than those commonly used in motor learning experiments *()*.
+
+There are at least two other methodological issues that warrant consideration. The first of these is that in self-controlled motor learning experiments participants in the self-controlled group are usually given choice over a single component (e.g., feedback or when to watch a modeled demonstration) of their practice and participants in the yoked group are not given choice over this component. However, within the context of practice itself there are many other opportunities for choice that participants may explore, independent of their assigned group. Target-based tasks such as basketball free throws or bean-bag tossing are a popular choice in motor learning experiments and have been used in self-controlled learning experiments *()*. While a participant in the yoked group may not be permitted choice over their feedback schedule (or some other practice variable) with such tasks, this does not preclude them from being able to experience choice opportunities---and thus experience autonomy-support---when trying different throwing techniques, speeds, or release points. Thus, labeling yoked groups as being devoid of choice opportunities may be a misnomer. The other consideration relates to the instructions that are provided to participants in the yoked group. In the context of feedback[^1], these participants are typically informed that during practice they may or may not receive feedback after a given trial *()*. This means that participants in yoked groups are not even aware that they have been denied an opportunity for choice, nor that their feedback schedule was created by another participant who was given choice over when feedback was or was not provided. Either of these in isolation, or both simultaneously could contribute to the consistent finding that participants in self-controlled and yoked groups report similar perceived autonomy scores when asked about their opportunities for choices with respect to the motor task *()* or about their practice environment in general *()*.
+
+[^1]: While feedback is used in this example, this issue surrounding instructions is also relevant to other practice variables commonly used in self-controlled learning experiments.
+
+Here we investigated the effects of making participants in a yoked group explicitly aware of not only being denied opportunities for choice over their frequency of watching and the playback speed of video demonstrations, but also that the schedule they would experience during practice was created by another participant in the experiment. The addition of this novel yoked group allowed us to address one of the previously identified methodological limitations regarding experimental group instructions of previous self-controlled research. We compared the performance of this explicit yoked group with traditional self-controlled and yoked groups on a speed cup-stacking task in practice and in a delayed retention test.
+
+# Methods
+We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study *()*. The experimental design and analyses were preregistered using AsPredicted.org and is available here: **ADD URL**.
+
+## Participants
+
+
+## Material
+
+## Procedure
+
+## Data analysis
+
+<!-- We used `r cite_r("r-references.bib")` for all our analyses. -->
+
+# Results
+
+# Discussion
+
+\newpage
+
+# References
+
+```{=tex}
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+```
+::: {#refs custom-style="Bibliography"}
+:::
+
+\endgroup
