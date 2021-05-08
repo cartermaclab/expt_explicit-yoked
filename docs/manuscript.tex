@@ -116,11 +116,13 @@
 \usepackage{dblfloatfix}
 
 
+\usepackage{lineno}
+
+\linenumbers
 \usepackage{csquotes}
+\pagewiselinenumbers
 \raggedbottom
 \leftheader{St. Germain et al. 2021}
-\usepackage{lineno}
-\pagewiselinenumbers
 \ifxetex
   % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
   \usepackage{polyglossia}
@@ -230,14 +232,66 @@ Our primary outcome measure was stacking time (i.e., response time) in seconds. 
 \hypertarget{pre-registered-analysis}{%
 \subsection{Pre-registered analysis}\label{pre-registered-analysis}}
 
-To test whether delayed retention was differentially impacted by the experimental group (i.e., Self-Controlled, Traditional Yoked, Explicit Yoked) experienced during acquisition, we performed a one-way ANCOVA controlling for pre-test \textbf{(Fig 2C)}. As can be seen, the Self-Controlled group \((M = 9.99, \,95\% \,CI = [9.68, \,10.31])\), the Traditional Yoked group \((M = 10.18, \,95\% \,CI = [9.86, \,10.50])\), and the Explicit Yoked group \((M = 10.12, \,95\% \,CI = [9.81, \,10.44])\) all had similar stacking times in retention (means are shown as the adjusted means controlling for pre-test). The effect of Group was not significant, \(F(2, 146) = .335, \,p = .716, \,\eta^2 = .002\).
+To test whether delayed retention was differentially impacted by the experimental group (i.e., Self-Controlled, Traditional Yoked, Explicit Yoked) experienced during acquisition, we performed a one-way ANCOVA controlling for pre-test \textbf{(Fig 2C)}. As can be seen, the Self-Controlled group \((M = 9.99, \,95\%CI = [9.68,10.31])\), the Traditional Yoked group \((M = 10.18, \,95\%CI = [9.86,10.50])\), and the Explicit Yoked group \((M = 10.12, \,95\%CI = [9.81,10.44])\) all had similar stacking times in retention (means are shown as the adjusted means controlling for pre-test). The effect of Group was not significant, \(F(2,146) = .335, \,p = .716, \,\eta^2 = .002\).
 
-\#\#Non pre-registered analyses
-\#\#\#Traditional self-controlled learning advantage
-To investigate whether a traditional self-controlled learning advantage existed---that is a comparison between the Self-Controlled and Traditional Yoked groups---we analyzed the non-adjusted retention scores using a Welch's t-test. The analysis revealed that the Self-Controlled group \((M = 9.77, \,95\% \,CI = [9.55, \,9.99])\) and the Traditional Yoked group \((M = 10.20, \,95\% \,CI = [9.92, \,10.49])\) were not statistically different, \(t(88.10) = 1.45, \,p = .15, \,g = .29\).
+\hypertarget{non-pre-registered-analyses}{%
+\subsection{Non pre-registered analyses}\label{non-pre-registered-analyses}}
+
+\hypertarget{traditional-self-controlled-learning-advantage}{%
+\subsubsection{Traditional self-controlled learning advantage}\label{traditional-self-controlled-learning-advantage}}
+
+To investigate whether a traditional self-controlled learning advantage existed---that is a comparison between the Self-Controlled and Traditional Yoked groups---we analyzed the non-adjusted retention scores using a Welch's t-test. The analysis revealed that the Self-Controlled group \((M = 9.77, \,95\%CI = [9.55,9.99])\) and the Traditional Yoked group \((M = 10.20, \,95\%CI = [9.92,10.49])\) were not statistically different, \(t(88.10) = 1.45, \,p = .15, \,g = .29\).
+
+\hypertarget{acquisition-phase}{%
+\subsubsection{Acquisition phase}\label{acquisition-phase}}
+
+Stacking time for each Group decreased across acquisition blocks \textbf{(Fig 2B)}, suggesting participants became more proficient at the 3-6-3 speed stacking task. A 3 Group x 5 Block mixed ANOVA with repeated measures on Block revealed a significant Block effect, \(F(3.63,533.79) = 116.73, \,p < .001, \,\eta^2_{G} = .133\). Post hoc comparisons revealed all acquisition blocks were significantly different from each other. Both the Group effect, \(F(2,147) = .738, p = .48, \,\eta^2_{G} = .008\), and Group x Block interaction, \(F(7.26,533.79) = .543, \,p = .802, \,\eta^2_{G} = .001\), were not statistically significant.
+
+\hypertarget{perceived-autonomy}{%
+\subsubsection{Perceived autonomy}\label{perceived-autonomy}}
+
+Self-reported perceived autonomy scores are displayed in \textbf{Fig 3A} where it can be seen that the Self-Controlled group reported slightly higher scores compared to the two Yoked groups at all time points following the pre-test. A 3 Group x 3 Time ANCOVA controlling for pre-test revealed a significant Group effect, \(F(2,146) = 8.04, \,p < .001, \,\eta^2_{G} = .083.\) Post hoc comparisons on the adjusted means revealed that the Self-Controlled group \((M = 5.61, \,95\%CI =[5.42,5.80])\) had significantly higher perceptions of autonomy compared to both the Traditional Yoked group \((M = 5.13, \,95\%CI = [4.94,5.32])\) and the Explicit Yoked group \((M = 5.13, \,95\%CI = [4.94,5.32])\), which did not differ from each other (and were, in fact, identical to two decimal places). Both the Time effect, \(F(1.61,234.98) = .867, \,p = .400, \,\eta^2_{G} = .001\), and Group x Time interaction, \(F(3.22,234.98) = 2.10, \,p = .096, \,\eta^2_{G} = .005\), were not significant.
+
+\hypertarget{intrinsic-motivation}{%
+\subsubsection{Intrinsic motivation}\label{intrinsic-motivation}}
+
+Self-reported intrinsic motivation scores can be found in \textbf{Fig 3B}. At each time point, all groups reported similar scores on the interest/enjoyment subscale. A 3 Group x 3 Time ANCOVA controlling for pre-test revealed non-significant effects for Group, \(F(2,146) = 2.08, \,p = .129, \,\eta^2_{G} = .024\), Time, \(F(1.68,245.73) = .563, \,p = .541, \,\eta^2_{G} = .001\), and the Group x Time interaction, \(F(3.37,245.73) = .333, \,p = .824, \,\eta^2_{G} = .001\).
+
+\hypertarget{perceived-competence}{%
+\subsubsection{Perceived competence}\label{perceived-competence}}
+
+The scores from the perceived competence subscale at each time point are displayed in \textbf{Fig 3C}. As can be seen, perceived competence scores showed a modest increase over time followed by a slight decrease before the delayed retention test. A 3 Group x 3 Time ANCOVA controlling for pre-test showed an effect of Time, \(F(1.75,255.22) = 10.60, \,p < .001, \,\eta^2_{G} = .015\). Post hoc tests on adjusted means revealed that scores were rated as significantly higher at the end of acquisition \((M = 3.98, \,95\%CI = [3.67,3.89])\) and before retention \((M = 3.78, \,95\%CI = [3.67,3.89])\) compared to after trial 5 \((M = 3.60, \,95\%CI = [3.49,3.71])\). However, perceived competence was significantly lower before retention compared to the end of acquisition. No significant effect of Group, \(F(2,146) = 2.65, \,p = .074, \,\eta^2_{G} = .028\), or Group x Time interaction, \(F(3.50,255.22) = .549, \,p = .677, \,\eta^2_{G} = .002\), was found.
+
+\hypertarget{equivalence-tests}{%
+\subsubsection{Equivalence tests}\label{equivalence-tests}}
+
+To further probe our null effects related to our main predictions \emph{()}, two equivalence tests (Self-Controlled versus Traditional Yoked and Traditional Yoked versus Explicit Yoked) on pre-test adjusted retention stacking times were carried out using the two one-sided test procedure \emph{()}. To establish our smallest effect size of interest \emph{()}, we used Simonsohn's \emph{()} recommendation of setting your smallest effect size of interest to what a design had 33\% power to detect. Our current design had 33\% power to detect a Cohen's \(d_{s} = .31\). The Self-Controlled and Traditional Yoked groups were not statistically different, \(t(97.99) = -0.830, \,p = 0.409\), and not statistically equivalent, \(t(97.99) = 0.720, \,p = 0.237\), given equivalence bounds of \textbf{GET RAW SCALE VALUES}. Similarly, the Traditional Yoked and Explicit yoked groups were not statistically different, \(t(97.99) = 0.262, \,p = 0.794\), and not statistically equivalent, \(t(97.99) = -1.288, \,p = 0.100\), given equivalence bounds of \textbf{GET RAW SCALE}.
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
+
+It has been argued that self-controlled practice conditions are effective for motor learning because they are autonomy-supportive in nature \emph{()}. Yet, this claim has largely been assumed \emph{()} and when tested, has received little to not support in the motor learning literature to date \emph{()}. Here, we addressed a possible methodological limitation for this lack of support. That is, in previous self-controlled motor learning research, participants in the yoked group are not made aware that they have been denied opportunities to exercise choice over a practice variable such as feedback or watching a modeled demonstration. In the present experiment we introduced a novel yoked group that was explicitly told that the observation schedule---frequency and speed of video---they would receive during practice was actually one created by another participant in the experiment. Contrary to our prediction, the Explicit Yoked group did not report significantly lower perceived autonomy scores than the Traditional Yoked group, which was only informed their observation schedule was predetermined. In line with the ``OPTIMAL'' theory \emph{()}, the Self-Controlled group reported significantly higher perceived autonomy-support than both the Traditional and Explicit Yoked groups. However, this boost in perceived autonomy did not lead to enhanced motor performance or learning. These findings from a well-powered experiment are difficult to reconcile with a core pillar of the ``OPTIMAL'' theory of motor learning \emph{()}.
+
+\hypertarget{self-controlled-practice-conditions-as-autonomy-supportive}{%
+\subsection{Self-controlled practice conditions as autonomy-supportive}\label{self-controlled-practice-conditions-as-autonomy-supportive}}
+
+A common problem with many of the self-controlled or choice motor learning literature claiming autonomy-support as an underlying mechanism for self-controlled learning advantages is a failure to include measures that actually test this claim \emph{()}. Instead, this link to autonomy-support is merely assumed based on the provision of choice to one group of participants versus not giving the same choice to another group of participants. As noted earlier, an issue with this assumption is that within the practice environment itself, there are myriad opportunities for participants, independent of group, to exercise choice. In throwing tasks common to motor learning, participants can explore the task workspace by attempting different throwing techniques. In more lab-based tasks that consist of multiple spatial and timing goals (e.g., waveform matching), participants can choose a single goal to focus on and master before shifting their attention to another goal. Commensurate with this idea, Ste-Marie et al.~\emph{()} found no differences in perceived choice regarding the motor task being learned between their self-controlled and yoked groups, despite the self-controlled group showing enhanced retention. This may explain why research has consistently reported perceived autonomy scores that do not differ significantly between self-controlled and yoked groups \emph{()}.
+
+Another possible explanation for the finding that being in a self-controlled group has not been perceived as more autonomy-supportive than being in a yoked group is that choice is typically provided over a single element of the practice variable, such as the frequency of receiving feedback \emph{()} or the level of task difficulty \emph{()}. Control or choice over a single dimension may not be strong enough to elicit a large enough boost in perceived autonomy above and beyond that of being able to explore one's task workspace as mentioned above. Thus, to increase the saliency of the self-controlled manipulation in the present experiment, we gave the self-controlled participants control over two elements of their observation schedule: viewing frequency and video playback speed. Having control of these two dimensions resulted in higher perceptions of autonomy in our Self-Controlled group compared to the Traditional and Explicit Yoked groups \textbf{(Fig 3A)} and may explain the inconsistency with past research failing to find this effect \emph{()} However, McKay and Ste-Marie \emph{()} recently found that choice over a single element increased perceived autonomy but similar to our data, they also did not find this led to increased learning. Thus, it is unclear whether the higher autonomy scores in the present experiment can in fact be attributed to having control over multiple elements of one's observation schedule.
+
+In a similar vein, past research has also suggested that self-controlled learning benefits are not dependent on the amount of choice opportunities over a single element \emph{()}. Given these findings, we argue that the most likely explanation for the inconsistency surrounding the effect of self-controlled practice being autonomy-supportive is that this effect is quite small, and the designs of previous experiments have lacked the statistical power to reliability detect this effect \emph{()}. These experiments have had sample sizes of 20 participants or less per group, whereas there were 50 participants in each group in the present experiment and 64 per group (when collapsed across constant and variable practice schedules) in McKay and Ste-Marie \emph{()}. Collapsing across our two yoked groups, we estimate an effect of autonomy-support of \(g = .197\) whereas the estimate from McKay and Ste-Marie was \(g = .57\). Regardless of the estimated size of the effect for autonomy-support through a self-controlled practice condition, a larger issue and challenge to the OPTIMAL theory \emph{()} is that significantly higher perceptions of autonomy did not result in superior performance in either acquisition or delayed retention \emph{()}.
+
+\hypertarget{no-learning-advantage-from-a-self-controlled-observation-schedule}{%
+\subsection{No learning advantage from a self-controlled observation schedule}\label{no-learning-advantage-from-a-self-controlled-observation-schedule}}
+
+The delayed retention results in the present experiment not only are inconsistent with numerous past experiments reporting a self-controlled motor learning benefit \emph{()}, but also the general consensus that the self-controlled learning advantage is a robust effect \emph{()}. Of late, however, there has been an increase in the number of papers reporting a failure to detect the so-called self-controlled learning advantage \emph{()}. This recent lack of support may arise from the self-controlled learning advantage being a much smaller effect than originally estimated (g = 0.63 \emph{)}. A more recent estimate of this effect from a meta-analysis using a weight-function model was g = .11, 95\% CI = {[}.047, .18{]} \emph{()}. This estimate was further reduced to g = .054 after controlling for publication bias using the precision-effect estimate with standard error (PEESE) method. Thus, both models seem to suggest a fairly trivial effect. Additional simulations included in the meta-analysis provided plausible effect size estimates ranging from g = -.11 to .26. In our experiment, the estimated effect size of self-controlled versus yoked (collapsed across our Traditional and Explicit Yoked groups) was g = 0.22. While this estimate is much larger than those from the weight-function model and PEESE method, it does fall within the range of plausible effect sizes. When the lack of a self-controlled advantage in previous work and our current experiment are contextualized within the findings of the self-controlled meta-analysis, it is not as surprising that the so-called self-controlled learning benefit was not replicated. Additionally, despite the large sample size of the present experiment (\emph{n}/group = 50) versus the typical self-controlled motor learning experiment (median \emph{n}/group = 18 \emph{)}, the results of the primary analysis and the equivalence test remain inconclusive. This, along with the effect size estimates in the recent meta-analysis, suggest enormous sample sizes are required to reliably detect an effect of a self-controlled learning advantage. Using the upper bound, g = .26, of the range of plausible effects, 253 participants are required to have 80\% power to detect this effect in retention using an independent-samples t-test. The number of participants jumps to 1300 per group, if for instance the estimate from the weight-function model, g = .11, is accurate \emph{()}. Given the field of motor learning suffers from a lack of adequately powered designs \emph{()}. and that underpowered designs are more likely to produce false positives and overestimated effect sizes \emph{()}, we are skeptical of the replicability of the previous overwhelming support for the self-controlled learning advantage.
+
+\hypertarget{lack-of-support-for-key-predictions-of-the-optimal-theory-of-motor-learning}{%
+\subsection{Lack of support for key predictions of the OPTIMAL theory of motor learning}\label{lack-of-support-for-key-predictions-of-the-optimal-theory-of-motor-learning}}
+
+Within the ``OPTIMAL'' theory \emph{()}, it is predicted that practice conditions that promote autonomy-support and enhance expectancies contribute to a virtuous cycle that leads to superior motor learning. In other words, significant group differences between self-controlled and yoked groups would be expected on measures related to these psychological constructs. As mentioned earlier, we found higher perceptions of autonomy-support in our Self-Controlled group relative to the Traditional and Explicit Yoked groups; however, this did not enhance motor learning as predicted by the virtuous cycle of the OPTIMAL theory. Contrary to the ``OPTIMAL'' theory, we did not find an effect of group for perceived competence (i.e., enhanced expectancies) or intrinsic motivation. Perceived competence scores did increase across acquisition blocks, which mirrors the improved motor performance seen throughout acquisition. These results are in line with results of a path analysis that suggested self-efficacy (i.e., enhanced expectancies) and intrinsic motivation were insufficient to explain self-controlled learning benefits \emph{()}. Overall, these data are inconsistent with predictions of the ``OPTIMAL'' theory regarding autonomy-support and enhanced expectancies, and further question the causal role such manipulations play in motor learning.
+
+In sum, we found that being able to control two aspects of one's observation schedule during practice was perceived as autonomy-supportive relative to not having this same control opportunity. However, making participants in an Explicit yoked group aware they would be denied a control opportunity during practice did not decrease perceptions of autonomy relative to participants in the Traditional Yoked group. Furthermore, no reliable group differences were found in a delayed retention test and we also failed to replicate the typical self-controlled learning advantage. These results add to a growing body of evidence that questions if manipulations of autonomy support directly affect learning \emph{()}. One explanation for this lack of replicability is that the \emph{``true''} effect of autonomy-support on motor learning is much smaller than previously estimated. Given the resources required (in terms of sample size) to reliably detect these tiny effects, we encourage motor learning scientists to invest their limited resources carefully---either studying practice conditions that have much bigger effects or devising ways to reduce variability and increase power through clever experimental design \emph{()}.
 
 \newpage
 
@@ -248,6 +302,8 @@ To investigate whether a traditional self-controlled learning advantage existed-
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
+\endgroup
+
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
 \leavevmode\hypertarget{ref-sanli2013}{}%
@@ -257,8 +313,6 @@ Sanli, E. A., Patterson, J. T., Bray, S. R., \& Lee, T. D. (2013). Understanding
 Ste-Marie, D. M., Carter, M. J., \& Yantha, Z. D. (2019). \emph{Self-controlled learning: Current findings, theoretical perspectives, and future directions} (3rd ed.). Routledge.
 
 \end{CSLReferences}
-
-\endgroup
 
 
 \end{document}
