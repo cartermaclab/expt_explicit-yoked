@@ -119,6 +119,8 @@
 \usepackage{csquotes}
 \raggedbottom
 \leftheader{St. Germain et al. 2021}
+\usepackage{lineno}
+\pagewiselinenumbers
 \ifxetex
   % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
   \usepackage{polyglossia}
@@ -199,17 +201,40 @@ We report how we determined our sample size, all data exclusions (if any), all m
 \hypertarget{participants}{%
 \subsection{Participants}\label{participants}}
 
+One-hundred and fifty participants completed the experiment. Sample size was determined by an a priori power calculation based on our smallest comparison of interest. An early estimate for the effect of self-controlled over yoked practice was a Hedges' \(g = 0.63\) \emph{()} and while planning this experiment this effect was estimated to be \(g = 0.52\) \emph{()}. Based on this effect, a positive correlation of \(r = 0.6\) between retention and pre-test as the covariate, and 80\% power to detect a difference between the self-controlled and traditional yoked groups, the required number of participants was 31 per group. Considering the novelty of our explicit yoked group, we assumed a smaller effect, \(g = 0.4\), between it and the traditional yoked group. With the same parameters as above, this resulted in our final sample of 50 participants per group. Participants completed the experiment in either the Self-Controlled group \((M_{age} = 18.0, SD = 0.34)\), the Traditional Yoked group \((M_{age} = 19.5, SD = 1.89)\), or the Explicit Yoked group \((M_{age} = 19.2, SD = 1.55)\). We collected the Self-Controlled group first as their self-selected observation schedule was required for the yoking procedure for the two other groups. Once the Self-Controlled group had been collected, participants were randomly assigned to one of the two Yoked groups. All participants provided written informed consent approved by and conducted in accordance with the University's Research Ethics Board. Participants received either \$15 or a course bonus for their participation.
+
 \hypertarget{material}{%
 \subsection{Material}\label{material}}
+
+Participants were tasked with learning the 3-6-3 speed cup stacking sequence based on the rules of the World Sport Stacking Association \href{https://www.thewssa.com/}{(https://www.thewssa.com/)}. The sequence consisted of an upstack phase and a downstack phase using official Speed Stacks cups \href{https://www.speedstacks.com/}{(https://www.speedstacks.com/)}. Participants performed the task using both their hands and had to complete an upstacking and a downstacking phase. The upstacking phase began by completing the first 3 cup pyramid, followed by the 6 cup pyramid, and then the other 3 cup pyramid. The downstacking phase began by returning to and collapsing the 3 cup pyramid that was upstacked first, then the 6 cup pyramid, and finally the last 3 cup pyramid.
 
 \hypertarget{procedure}{%
 \subsection{Procedure}\label{procedure}}
 
+Participants completed two data collection sessions separated by approximately 24 hours. Session 1 consisted of a pre-test and an acquisition phase. Session 2 consisted of a delayed retention test. At the start of each phase of the experiment, all participants received phase-specific instructions \textbf{(see Table 1)}. Group specific instructions were provided prior to the acquisition phase. The instructions appeared on a 22-inch computer monitor (1920x1080 resolution) positioned to the right of the participant. Participants followed along as the instructions were read aloud by the researcher.
+
+Each trial began with participants standing at a standard height table with their hands on marked positions on the table in front of them. The 12 cups were located in upside down stacks of 3-6-3 in front of the participant. Following a ``Get Ready!'' prompt displayed for 1 s and a constant foreperiod of 1 s, an audiovisual ``Go-signal'' (green square and a beep tone) was presented. Participants were instructed to start stacking as quickly as possible following the ``Go-signal'' as its presentation initiated the timer. Once the upstack and downstack phases were completed, participants were instructed to press the spacebar on a keyboard located in front of them to stop the timer. If an error occurred (e.g., only completed the upstack phase then stopped the timer, forgot to hit the timer, etc), the experimenter recorded the trial number for later removal. The pre-test and delayed retention test both consisted of five no-feedback trials. The acquisition phase had 25 trials and was the only phase where the video demonstration could be watched based on group assignment. Participants in the Self-Controlled group could decide at the start of each trial if they wanted to watch the video demonstration. If they chose to watch the video, they were then asked whether they wanted to watch it in real-time or slow motion (35\% of real-time). Participants in the Traditional Yoked and Explicit Yoked groups received the demonstration schedule created by a participant in the Self-Controlled group with the exception that participants in the Explicit Yoked group were made aware that this schedule was created by another participant \textbf{(see Table 1)}. Feedback about the participant's stacking time was provided after every trial in acquisition. The timeline of a typical trial is illustrated in \textbf{Figure 1}.
+
+To test predictions based on the ``OPTIMAL'' theory regarding the role of motivation, enhanced expectancies, and autonomy-support, participants completed the interest/enjoyment and perceived competence subscales from the Intrinsic Motivation Inventory \emph{()} and a custom scale regarding choice used in previous self-controlled motor learning experiments \emph{()}. The order of questions from each scale were randomized and each question was rated using a 7-point Likert scale. Participants answered these questions after the pre-test, after trials five and 25 of acquisition, and before the delayed retention test.
+
+A custom LabVIEW (National Instruments Inc.) program was created that controlled the presentation of all instructions, the video demonstrations, the timing of the experimental protocol, and recorded and stored the data for later analysis.
+
 \hypertarget{data-analysis}{%
 \subsection{Data analysis}\label{data-analysis}}
 
+Our primary outcome measure was stacking time (i.e., response time) in seconds. Trials recorded as errors \((76/5250 = 1.45\%)\) during data collection were manually removed prior to data analysis. For each participant, pre-test and delayed retention trials were aggregated into one block of five trials and acquisition was aggregated into five blocks of five trials. Significance level was set to 0.05 for all statistical tests. Effect sizes for omnibus tests are reported using generalized eta squared \((\eta^2_{G})\) or eta squared \((\eta^2)\). Hedges' \(g\) values were calculated to gauge the effect size of the post hoc comparisons using Holm's correction. A Cook's distance of \(\geq 1\) was used to identify any influential cases.
+
 \hypertarget{results}{%
 \section{Results}\label{results}}
+
+\hypertarget{pre-registered-analysis}{%
+\subsection{Pre-registered analysis}\label{pre-registered-analysis}}
+
+To test whether delayed retention was differentially impacted by the experimental group (i.e., Self-Controlled, Traditional Yoked, Explicit Yoked) experienced during acquisition, we performed a one-way ANCOVA controlling for pre-test \textbf{(Fig 2C)}. As can be seen, the Self-Controlled group \((M = 9.99, \,95\% \,CI = [9.68, \,10.31])\), the Traditional Yoked group \((M = 10.18, \,95\% \,CI = [9.86, \,10.50])\), and the Explicit Yoked group \((M = 10.12, \,95\% \,CI = [9.81, \,10.44])\) all had similar stacking times in retention (means are shown as the adjusted means controlling for pre-test). The effect of Group was not significant, \(F(2, 146) = .335, \,p = .716, \,\eta^2 = .002\).
+
+\#\#Non pre-registered analyses
+\#\#\#Traditional self-controlled learning advantage
+To investigate whether a traditional self-controlled learning advantage existed---that is a comparison between the Self-Controlled and Traditional Yoked groups---we analyzed the non-adjusted retention scores using a Welch's t-test. The analysis revealed that the Self-Controlled group \((M = 9.77, \,95\% \,CI = [9.55, \,9.99])\) and the Traditional Yoked group \((M = 10.20, \,95\% \,CI = [9.92, \,10.49])\) were not statistically different, \(t(88.10) = 1.45, \,p = .15, \,g = .29\).
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
