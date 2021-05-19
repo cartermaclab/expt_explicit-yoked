@@ -38,5 +38,10 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# Some tex related files
+*.fff
+*.log
+*.ttt
+
 # ignore from mac os
 *.DS_Store
