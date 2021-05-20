@@ -1,0 +1,52 @@
+---
+title: "Instructions"
+#author: ""
+#date: ""
+output: pdf_document
+---
+
+# Pre-test
+
+**Note.** All participants received the same instructions prior to completing the Pre-test of the experiment.
+
+## Everyone
+> Welcome to the Pre-test! For this task, you will be required to perform a 3-6-3 cup stacking sequence. Your goal is to complete the up-stack and down-stack as quickly and accurately as possible. Here is a brief instructional video explaining the task. Pay attention to the video because you are only able to watch it once.
+
+*[Video was an excerpt (3:04 to 3:34) from the following video (https://youtu.be/OjEH3ugV6mM) available on the Speed Stacks Inc YouTube channel]*
+
+> You will begin each trial with your hands on the table in front of you in the marked locations. After a brief period of time, the words ‘Get Ready!’ will appear on the screen. Shortly after this (1 sec), you will hear a ‘Go’ beep and see a green square. Once you hear this beep and see the green square, the timer will begin and you should begin the cup stacking task as quickly as possible. Once you have finished the up-stack and down-stack phases, you should hit the SPACEBAR on the keyboard located in front of you to stop the timer. Lastly, here is a brief video explaining some rules about what to do if your cups fall over. Again, please pay attention to the video because you are only able to watch it once.
+
+*[Video was an excerpt (4:12 to 4:48) from the following video (https://youtu.be/OjEH3ugV6mM) available on the Speed Stacks Inc YouTube channel]*
+
+> Do you have any questions? Do you still consent to participate in the experiment? You will now perform 5 trials of the task but will not be told your time.
+
+
+# Acquisition
+
+**Note.** The first and last portions of the instructions were the same for all participants. The middle portion is where group specific instructions were presented.
+
+## Everyone
+> Welcome to Acquisition! For this task, you will be required to perform a 3-6-3 cup stacking sequence. Your goal is to complete the up-stack and down-stack as quickly and accurately as possible. You will begin each trial with your hands on the table in front of you in the marked locations. After a brief period of time, the words ‘Get Ready!’ will appear on the screen. Shortly after this (1 sec), you will hear a ‘Go’ beep and see a green square. Once you hear this beep and see the green square, the timer will begin and you should begin the cup stacking task as quickly as possible. Once you have finished the up-stack and down-stack phases, you should hit the SPACEBAR on the keyboard located in front of you to stop the timer. You will now perform 25 trials of the task.
+
+## Group specific
+
+### Self-Controlled group
+> Before each trial, you will be asked whether you wish to watch a modeled demonstration of the task. If you choose YES, you will then be asked whether you want to watch the video in real-time or in slow-motion.
+
+### Traditional Yoked group
+> Before each trial, you may or may not watch a modeled demonstration of the task based on a pre-determined schedule. If you observe a model, it might be presented in real-time or in slow-motion based on the pre-determined schedule.
+
+### Explicit Yoked group
+> Before each trial, you may or may not watch a modeled demonstration of the task based on the schedule another participant selected. If you observe a model, it might be presented in real-time or in slow-motion based on what that participant selected.
+
+## Everyone
+> After each trial, you will be told how long you took to perform the task. If you knock over your cups during the up-stack phase, remember that the previous stack must be standing before you can continue. Should you require a break at any point, please inform the researcher. Do you have any questions?
+
+
+# Retention
+
+**Note.** All participants received the same instructions prior to completing the Pre-test of the experiment.
+
+## Everyone
+> Welcome to Retention! For this task, you will be required to perform a 3-6-3 cup stacking sequence. Your goal is to complete the up-stack and down-stack as quickly and accurately as possible. You will begin each trial with your hands on the table in front of you in the marked locations. After a brief period of time, the words ‘Get Ready!’ will appear on the screen. Shortly after this (1 sec), you will hear a ‘Go’ beep and see a green square. Once you hear this beep and see the green square, the timer will begin and you should begin the cup stacking task as quickly as possible. Once you have finished the up-stack and down-stack phases, you should hit the SPACEBAR on the keyboard located in front of you to stop the timer. If you knock over your cups during the up-stack phase, remember that the previous stack must be standing before you can continue. Do you have any questions? You will now perform 5 trials of the task but ill not be told your time.
+
