@@ -19,21 +19,21 @@ To get a copy of the repository on your machine, click the green Code button the
 │   ├── preprint
 │   │   ├── preprint.pdf
 │   │   ├── preprint.Rmd
-│   │   ├── preprint.tex
-│   │   └── r-references.bib
+│   │   └── preprint.tex
 │   ├── references.bib
 │   ├── r-references.bib
 │   └── submission
 │       ├── manuscript.pdf
 │       ├── manuscript.Rmd
-│       ├── manuscript.tex
-│       └── r-references.bib
+│       └── manuscript.tex
 ├── expt_explicit-yoked.Rproj
 ├── figs
 │   ├── fig1.pdf
 │   ├── fig1.png
+│   ├── fig1.tiff
 │   ├── fig2.pdf
-│   └── fig2.png
+│   ├── fig2.png
+│   └── fig2.tiff
 ├── materials
 │   ├── instructions.pdf
 │   ├── instructions.Rmd
