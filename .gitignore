@@ -43,5 +43,8 @@ vignettes/*.pdf
 *.log
 *.ttt
 
+# Ignore cover letter directory
+/docs/submission/cover-letter/
+
 # ignore from mac os
 *.DS_Store
