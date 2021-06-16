@@ -109,7 +109,7 @@ header-includes   :
 
 ```{r setup, include = FALSE}
 library(papaja)
-r_refs("r-references.bib")
+#r_refs("r-references.bib")
 ```
 
 ```{r analysis-preferences}

@@ -85,9 +85,9 @@
 
 % Create new environments so endfloat can handle them
 % \newenvironment{ltable}
-%   {\begin{landscape}\begin{center}\begin{threeparttable}}
-%   {\end{threeparttable}\end{center}\end{landscape}}
-\newenvironment{lltable}{\begin{landscape}\begin{center}\begin{ThreePartTable}}{\end{ThreePartTable}\end{center}\end{landscape}}
+%   {\begin{landscape}\centering\begin{threeparttable}}
+%   {\end{threeparttable}\end{landscape}}
+\newenvironment{lltable}{\begin{landscape}\centering\begin{ThreePartTable}}{\end{ThreePartTable}\end{landscape}}
 
 % Enables adjusting longtable caption width to table width
 % Solution found at http://golatex.de/longtable-mit-caption-so-breit-wie-die-tabelle-t15767.html
@@ -112,11 +112,12 @@
   {}{\typeout{Failed to patch title.}}
 \makeatother
 \shorttitle{Autonomy-support does not benefit motor learning}
-\keywords{Motor learning; Pre-registered; Self-controlled; Observation; Equivalence testing}
+\keywords{Motor learning; Pre-registered; Self-controlled; Observation; Equivalence testing\newline\indent Word count: 5055}
 \usepackage{lineno}
 
 \linenumbers
 \usepackage{csquotes}
+\usepackage{pdflscape}
 \pagewiselinenumbers
 \raggedbottom
 \leftheader{\textbf{THIS PREPRINT HAS BEEN SUBMITTED FOR PEER-REVIEW}}
@@ -168,9 +169,11 @@
 
 \addORCIDlink{Michael J. Carter}{0000-0002-0675-4271}
 
-We have outlined author contributions using CRediT (Contributor Roles Taxonomy - \url{https://casrai.org/credit/}).
+Preregistration: \url{https://aspredicted.org/ze8cj.pdf}
 
-The authors made the following contributions. Laura St.~Germain: Conceptualization, Data curation, Formal analysis, Investigation - Performed the experiment, Methodology, Project administration, Software - Task Programming, Validation, Visualization, Writing - Original Draft Preparation, Writing - Review \& Editing; Allison Williams: Investigation - Performed the experiment, Writing - Original Draft Preparation, Writing - Review \& Editing; Noura Balbaa: Investigation - Performed the experiment, Writing - Original Draft Preparation, Writing - Review \& Editing; Andrew Poskus: Investigation - Performed the experiment, Writing - Review \& Editing; Olena Leshchyshen: Investigation - Performed the experiment, Writing - Review \& Editing; Keith R. Lohse: Conceptualization, Data curation, Formal analysis, Methodology, Validation, Writing - Original Draft Preparation, Writing - Review \& Editing; Michael J. Carter: Conceptualization, Data curation, Formal analysis, Funding acquisition, Methodology, Project administration, Resources, Software - Task Programming, Supervision, Validation, Visualization, Writing - Original Draft Preparation, Writing - Review \& Editing.
+Data, code, and materials: \url{https://github.com/cartermaclab/expt_explicit-yoked}
+
+PsyArXiv preprint: \url{https://doi.org/10.31234/osf.io/s34fg}
 
 Correspondence concerning this article should be addressed to Michael J. Carter, 1280 Main Street West, Ivor Wynne Centre Room 203, McMaster University, Hamilton ON Canada, L8S 4K1. E-mail: \href{mailto:michaelcarter@mcmaster.ca}{\nolinkurl{michaelcarter@mcmaster.ca}}
 
@@ -179,7 +182,10 @@ Correspondence concerning this article should be addressed to Michael J. Carter,
 \affiliation{\vspace{0.5cm}\textsuperscript{1} Department of Kinesiology, McMaster University\\\textsuperscript{2} Program in Physical Therapy, Washington University School of Medicine in Saint Louis}
 
 \abstract{
-There has been growing research interest in the effects that motivation plays in motor learning, and specifically how autonomy, competence, and social relatedness may directly benefit the learning process. Here, we present a preregistered manipulation of autonomy-support by providing learners with choice during the practice of a speed cup-stacking skill. One group was given control over when a video demonstration was provided and the viewing speed. A yoked control group received an identical demonstration schedule, but without choice (as their schedule was matched to a participant with choice). Critically, we addressed a gap in the literature by adding a yoked group who was explicitly told that they were being denied choice and that their schedule was chosen by another participant. We found no statistically significant learning differences between groups, despite finding evidence that providing choice increased perceived autonomy. Equivalence tests further showed that although the groups were not statistically equivalent, the effect size is likely too small to practically study the effects of autonomy-support through choice in most motor learning labs. These findings add to a growing body of research that questions a causal role of autonomy-support on motor learning, and the robustness of the so-called self-controlled learning advantage.
+There has been growing research interest in the effects that motivation plays in motor learning, and specifically how autonomy, competence, and social relatedness may directly benefit the learning process. Here, we present a preregistered manipulation of autonomy-support by providing learners with choice during the practice of a speed cup-stacking task. One group was given control over when a video demonstration was provided and the viewing speed. A yoked control group received an identical demonstration schedule, but without choice (as their schedule was matched to a participant with choice). Critically, we addressed a gap in the literature by adding a yoked group who was explicitly told that they were being denied choice and that their schedule was chosen by another participant. We found no statistically significant learning differences between groups, despite finding evidence that providing choice increased perceived autonomy. Equivalence tests further showed that although the groups were not statistically equivalent, the effect size is likely too small to practically study the effects of autonomy-support through choice in most motor learning labs. These findings add to a growing body of research that questions a causal role of autonomy-support on motor learning, and the robustness of the so-called self-controlled learning advantage.
+
+\textbf{\emph{Public Significance Statement}}\\
+The present study suggests that although university-aged students may experience a boost in feelings of autonomy when given choice over features of their learning environment, this boost does not enhance learning of a new motor skill. Additionally, it highlights that coaches and practictioners should be encouraged to incorporate other and more effective practice variables into their training regimes.
 }
 
 
@@ -194,38 +200,6 @@ Over the years, this manipulation has been described using a variety of names (e
 Despite its prominent role within the ``OPTIMAL'' theory of motor learning, there are numerous reasons to doubt the importance of autonomy-support through the provision of choice during practice. First, if the benefits are the result of having opportunities for choice then learning differences should not emerge between different self-controlled groups. However, in experiments where different groups of participants have choice over their feedback schedule, such learning differences have been found, but not limited to, when this choice is made \emph{after} rather than before a performance attempt (Carter et al., 2014; Chiviacowsky \& Wulf, 2005), when different criteria for success are provided to participants (Chiviacowsky et al., 2012), and when the absolute number of feedback choice opportunities are limited compared to unlimited at the outset of practice (Hansen et al., 2011; Patterson et al., 2011). Second, there has been little-to-no support for the notion that practicing in a self-controlled group is perceived as more autonomy-supportive than being in a yoked group. Ste-Marie et al. (2013), for example, had participants in the self-controlled and yoked groups complete the perceived choice subscale of the Intrinsic Motivation Inventory and failed to find the expected effect of higher self-reported scores during practice in the self-controlled group. Similar findings have been reported by others (Barros et al., 2019; Carter \& Ste-Marie, 2017b; McKay \& Ste-Marie, 2020b). However, McKay and Ste-Marie (2020a) recently found that practicing in a self-controlled group was perceived as more autonomy-supportive than practicing the same task in a yoked group. This increased perceived autonomy-support did not, however, translate into enhanced learning compared to the yoked group. Although the available literature does not provide substantial evidence that self-controlled practice is autonomy-supportive, this does not necessarily mean such a manipulation is not autonomy-supportive (Altman \& Bland, 1995). For instance, this effect may in fact be quite small and require much larger sample sizes to detect than those commonly used in motor learning experiments (Lohse et al., 2016).
 
 There are at least two other methodological issues that warrant consideration. The first of these is that in self-controlled motor learning experiments participants in the self-controlled group are usually given choice over a single component (e.g., feedback or when to watch a modeled demonstration) of their practice and participants in the yoked group are not given choice over this component. However, within the context of practice itself there are many other opportunities for choice that participants may explore, independent of their assigned group. Target-based tasks such as basketball free throws (e.g., Aiken et al., 2012) or bean-bag tossing (Grand et al., 2015) are a popular choice in motor learning experiments and have been used in self-controlled learning experiments. While a participant in the yoked group may not be permitted choice over their feedback schedule (or some other practice variable) in these experiments, this does not preclude them from opportunities for choice---and thus autonomy-support---when deciding to try different throwing techniques, speeds, and/or release points. Thus, labeling yoked groups as being devoid of choice opportunities may be a misnomer. The other consideration relates to the instructions that are provided to participants in the yoked group. In the context of feedback\footnote{While feedback is used in this example, this issue surrounding instructions is also relevant to other practice variables commonly used in self-controlled learning experiments.}, these participants are typically informed that during practice they may or may not receive feedback after a given trial (e.g., Chiviacowsky \& Wulf, 2002; Patterson \& Carter, 2010). This means that participants in yoked groups are not even aware that they have been denied an opportunity for choice, nor that their feedback schedule was created by another participant who was given choice over when feedback was or was not provided. Either of these in isolation, or both simultaneously could contribute to the consistent finding that participants in self-controlled and yoked groups report similar perceived autonomy scores when asked about their opportunities for choices with respect to the motor task (Ste-Marie et al., 2013) or about their practice environment in general (Barros et al., 2019; Carter \& Ste-Marie, 2017b; McKay \& Ste-Marie, 2020b).
-
-\begin{table}[tbp]
-
-\begin{center}
-\begin{threeparttable}
-
-\caption{\label{tab:table1}Group specific instructions detailing the observation schedule that would be experienced during Acquisition.}
-
-\scriptsize{
-
-\begin{tabular}{ll}
-\toprule
-  & Acquisition instructions\\
-\midrule
-Self-Controlled & Before each trial, you will be asked whether you wish to watch a modeled demonstration of the task.\\
- & If you choose YES, you will then be asked whether you want to watch the video in real-time or in\\
- & slow-motion.\\
-Traditional Yoked & Before each trial, you may or may not watch a modeled demonstration of the task based on a pre-\\
- & determined schedule. If you observe a model, it might be presented in real-time or in slow-motion\\
- & based on the pre-determined schedule.\\
-Explicit Yoked & Before each trial, you may or may not watch a modeled demonstration of the task based on the\\
- & schedule another participant selected. If you observe a model, it might be presented in real-time or in\\
- & slow-motion based on what that participant selected.\\
-\bottomrule
-\end{tabular}
-
-}
-
-\end{threeparttable}
-\end{center}
-
-\end{table}
 
 Here we investigated the effects of making participants in a yoked group explicitly aware of not only being denied opportunities for choice over their frequency of watching and the playback speed of video demonstrations, but also that the schedule they would experience during practice was created by another participant in the experiment. The addition of this novel yoked group allowed us to address one of the previously identified methodological limitations regarding experimental group instructions in past self-controlled research. We compared the performance of this explicit yoked group with traditional self-controlled and yoked groups on a speed cup-stacking task in practice and in a delayed retention test.
 
@@ -249,7 +223,24 @@ Participants were tasked with learning the 3-6-3 speed cup stacking sequence bas
 \hypertarget{procedure}{%
 \subsection{Procedure}\label{procedure}}
 
-Participants completed two data collection sessions separated by approximately 24 hours. Session 1 consisted of a pre-test and an acquisition phase. Session 2 consisted of a delayed retention test. At the start of each phase of the experiment, all participants received phase-specific instructions (see Data and code availability section). Group specific instructions were provided prior to the acquisition phase (see Table \ref{tab:table1}). The instructions appeared on a 22-inch computer monitor (1920x1080 resolution) positioned to the right of the participant. Participants followed along as the instructions were read aloud by the researcher.
+Participants completed two data collection sessions separated by approximately 24 hours. Session 1 consisted of a pre-test and an acquisition phase. Session 2 consisted of a delayed retention test. At the start of each phase of the experiment, all participants received phase-specific instructions \hyperref[sec:sharing]{(see Data, materials, and code availability section)}. Group specific instructions were provided prior to the acquisition phase (see Table \ref{tab:table1}). The instructions appeared on a 22-inch computer monitor (1920x1080 resolution) positioned to the right of the participant. Participants followed along as the instructions were read aloud by the researcher. \medskip
+
+\begin{table}
+
+\caption{\label{tab:table1}Group specific components from the instructions detailing the observation schedule that would be experienced during Acquisition.}
+\fontsize{11}{13}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{8em}>{\raggedright\arraybackslash}p{33em}}
+\toprule
+  & Acquisition instructions\\
+\midrule
+Self-Controlled & Before each trial, you will be asked whether you wish to watch a modeled demonstration of the task. If you choose YES, you will then be asked whether you want to watch the video in real-time or in slow-motion.\\
+\addlinespace
+Traditional Yoked & Before each trial, you may or may not watch a modeled demonstration of the task based on a pre-determined schedule. If you observe a model, it might be presented in real-time or in slow-motion based on the pre-determined schedule.\\
+\addlinespace
+Explicit Yoked & Before each trial, you may or may not watch a modeled demonstration of the task based on the schedule another participant selected. If you observe a model, it might be presented in real-time or in slow-motion based on what that participant selected.\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 Each trial began with participants standing at a standard height table with their hands on marked positions on the table in front of them. The 12 cups were located in upside down stacks of 3-6-3 in front of the participant. Following a ``Get Ready!'' prompt displayed for 1 s on the monitor and a constant foreperiod of 1 s, an audiovisual ``Go-signal'' (green square and a beep tone) was presented. Participants were instructed to start stacking as quickly as possible following the ``Go-signal'' as its presentation initiated the timer. Once the upstack and downstack phases were completed, participants were instructed to press the spacebar on a keyboard located in front of them to stop the timer. If an error occurred (e.g., only completed the upstack phase then stopped the timer, forgot to hit the timer, etc), the experimenter recorded the trial number for later removal.
 
@@ -262,7 +253,7 @@ A custom LabVIEW (National Instruments Inc.) program was created that controlled
 \hypertarget{data-analysis}{%
 \subsection{Data analysis}\label{data-analysis}}
 
-Our primary outcome measure was stacking time (i.e., response time) in seconds. Trials recorded as errors \((76/5250 = 1.45\%)\) during data collection were manually removed prior to data analysis. For each participant, pre-test and delayed retention trials were aggregated into one block of five trials and acquisition was aggregated into five blocks of five trials. Significance level was set to 0.05 for all statistical tests. Effect sizes for omnibus tests are reported using generalized eta squared \((\eta^2_{G})\) or eta squared \((\eta^2)\). Post hoc comparisons were conducted using Holm's correction. A Cook's distance of \(\geq 1\) was used to identify any influential cases.
+Our primary outcome measure was stacking time (i.e., response time) in seconds. Trials recorded as errors \((76/5250 = 1.45\%)\) during data collection were manually removed prior to data analysis. For each participant, pre-test and delayed retention trials were aggregated into one block of five trials and acquisition was aggregated into five blocks of five trials. Significance level was set to 0.05 for all statistical tests. Effect sizes for omnibus tests are reported using generalized eta squared \((\eta^2_{G})\) or eta squared \((\eta^2)\). Post hoc comparisons were conducted using Holm's correction. A Cook's distance of \(\geq 1\) was used to identify any influential cases and none were identified.
 
 \hypertarget{results}{%
 \section{Results}\label{results}}
@@ -276,12 +267,29 @@ To test whether delayed retention (Figure \ref{fig:fig1}C) was differentially im
 
 \begin{figure}
 
-{\centering \includegraphics[height=0.55\textheight]{../../figs/fig1} 
+{\centering \includegraphics[height=0.51\textheight]{../../figs/fig1} 
 
 }
 
 \caption{Physical performance data of the experiment. The Self-Controlled group is shown in red with solid lines and/or circles, the Traditional Yoked group is shown in blue with dotted and/or triangles, and the Explicit Yoked group is shown in orange with dashed and/or squares. \textbf{A}. Trial-by-trial stacking time (s) data averaged across participants within each group (shaded area represents standard error). Splits between line segments denote the end of one phase and the start of the next. Pre-test (Trials 1 to 5) and Acquisition (Trials 6 to 30) occurred on Day 1 and Retention (Trials 31 to 35) occurred on Day 2, approximately 24-hours later. \textbf{B}. Mean stacking time (s) for each group was computed by averaging the data from \textbf{A} into 7 blocks of trials. Error bars represent 95\% confidence intervals. Splits between line segments denote the end of one phase and the start of the next. \textbf{C}. Mean stacking time (s) adjusted for pre-test for each group. Error bars represent 95\% confidence intervals. \textbf{D}. Scatterplot showing the relationship between each participant's mean stacking time (s) in pre-test and retention.}\label{fig:fig1}
 \end{figure}
+
+\newpage
+
+\begin{table}
+
+\caption{\label{tab:table2}The mean frequencies for each Acquisition block of requesting to watch the video demonstration and of those requests, the mean frequency of choosing the regular viewing speed.}
+\fontsize{11}{13}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{13em}>{\raggedright\arraybackslash}p{5em}>{\raggedright\arraybackslash}p{5em}>{\raggedright\arraybackslash}p{5em}>{\raggedright\arraybackslash}p{5em}l}
+\toprule
+  & Block 1 & Block 2 & Block 3 & Block 4 & Block 5\\
+\midrule
+Model viewing frequency & 32.6\% & 16.9\% & 12.0\%\% & 12.9\% & 9.3\%\\
+\addlinespace
+Regular speed frequency & 33.8\% & 38.1\% & 50.0\% & 34.4\% & 30.4\%\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \hypertarget{non-pre-registered-analyses}{%
 \subsection{Non pre-registered analyses}\label{non-pre-registered-analyses}}
@@ -301,32 +309,6 @@ Model frequency and the video speed request data are reported in Table \ref{tab:
 
 Self-reported perceived autonomy scores are displayed in Figure \ref{fig:fig2}A where it can be seen that the Self-Controlled group reported slightly higher scores compared to the two Yoked groups at all time points following the pre-test. A 3 Group x 3 Time ANCOVA controlling for pre-test revealed a significant Group effect, \(F(2,146) = 8.04\), \(p < .001\), \(\eta^2_{G} = .083.\) Post hoc comparisons on the adjusted means revealed that the Self-Controlled group \((M = 5.61\), \(95\%CI =[5.42,5.80])\) had significantly higher perceptions of autonomy compared to both the Traditional Yoked group \((M = 5.13\), \(95\%CI = [4.94,5.32])\) and the Explicit Yoked group \((M = 5.13\), \(95\%CI = [4.94,5.32])\), which did not differ from each other (and were, in fact, identical to two decimal places). Both the Time effect, \(F(1.61,234.98) = .867\), \(p = .400\), \(\eta^2_{G} = .001\), and Group x Time interaction, \(F(3.22,234.98) = 2.10\), \(p = .096\), \(\eta^2_{G} = .005\), were not significant.
 
-\begin{table}[t]
-
-\begin{center}
-\begin{threeparttable}
-
-\caption{\label{tab:table2}The mean frequencies for each acquisition block of requesting to watch the video demonstration and choosing the regular viewing speed.}
-
-\scriptsize{
-
-\begin{tabular}{llllll}
-\toprule
-  & Block 1 & Block 2 & Block 3 & Block 4 & Block 5\\
-\midrule
-Model viewing frequency & 32.6\% & 16.9\% & 12.0\% & 12.9\% & 9.3\%\\
- &  &  &  &  & \\
-Regular speed frequency & 33.8\% & 38.1\% & 50.0\% & 34.4\% & 30.4\%\\
-\bottomrule
-\end{tabular}
-
-}
-
-\end{threeparttable}
-\end{center}
-
-\end{table}
-
 \hypertarget{intrinsic-motivation}{%
 \subsubsection{Intrinsic motivation}\label{intrinsic-motivation}}
 
@@ -341,7 +323,7 @@ The scores from the perceived competence subscale at each time point are display
 
 \begin{figure}
 
-{\centering \includegraphics[height=0.75\textheight]{../../figs/fig2} 
+{\centering \includegraphics[height=0.72\textheight]{../../figs/fig2} 
 
 }
 
@@ -351,12 +333,12 @@ The scores from the perceived competence subscale at each time point are display
 \hypertarget{equivalence-tests}{%
 \subsubsection{Equivalence tests}\label{equivalence-tests}}
 
-To further probe our null effects (Harms \& Lakens, 2018) related to our main predictions, two equivalence tests (Self-Controlled versus Traditional Yoked and Traditional Yoked versus Explicit Yoked) on pre-test adjusted retention stacking times were carried out using the two one-sided test procedure (Lakens et al., 2018; Schuirmann, 1987). To establish our smallest effect size of interest (Lakens, 2021) we calculated the effect size our design had 33\% power to detect (Simonsohn, 2015), which was \(d_{s} = .31\). The Self-Controlled and Traditional Yoked groups were not statistically different, \(t(97.99) = -0.830\), \(p = 0.409\), and not statistically equivalent, \(t(97.99) = 0.720\), \(p = 0.237\), given equivalence bounds of \(-.355\) and \(.355\) (on a raw scale). Similarly, the Traditional Yoked and Explicit Yoked groups were not statistically different, \(t(97.99) = 0.262\), \(p = 0.794\), and not statistically equivalent, \(t(97.99) = -1.288\), \(p = 0.100\), given equivalence bounds of \(-.355\) and \(.355\) (on a raw scale).
+To further probe the null effects (Harms \& Lakens, 2018) related to our main predictions, two equivalence tests (Self-Controlled versus Traditional Yoked and Traditional Yoked versus Explicit Yoked) on pre-test adjusted retention stacking times were carried out using the two one-sided test procedure (Lakens et al., 2018; Schuirmann, 1987). To establish our smallest effect size of interest (Lakens, 2021) we calculated the effect size our design had 33\% power to detect (Simonsohn, 2015), which was \(d_{s} = .31\). The Self-Controlled and Traditional Yoked groups were not statistically different, \(t(97.99) = -0.830\), \(p = 0.409\), and not statistically equivalent, \(t(97.99) = 0.720\), \(p = 0.237\), given equivalence bounds of \(-.355\) and \(.355\) (on a raw scale). Similarly, the Traditional Yoked and Explicit Yoked groups were not statistically different, \(t(97.99) = 0.262\), \(p = 0.794\), and not statistically equivalent, \(t(97.99) = -1.288\), \(p = 0.100\), given equivalence bounds of \(-.355\) and \(.355\) (on a raw scale).
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
 
-It has been argued that self-controlled practice conditions are effective for motor learning because they are autonomy-supportive in nature (Wulf \& Lewthwaite, 2016). Yet, this claim has received, at best, modest support in the motor learning literature (e.g., McKay \& Ste-Marie, 2020a; but see Barros et al., 2019; Carter \& Ste-Marie, 2017b; Ste-Marie et al., 2013 for non-support). Here, we addressed a possible methodological limitation for this lack of support. That is, in previous self-controlled motor learning research, participants in the yoked group are not made aware that they have been denied opportunities to exercise choice over a practice variable such as feedback or watching a modeled demonstration. In the present experiment we introduced a novel yoked group that was explicitly told that the observation schedule---frequency and speed of video---they would receive during practice was actually one created by another participant in the experiment. Contrary to our prediction, the Explicit Yoked group did not report significantly lower perceived autonomy scores than the Traditional Yoked group, which was only informed their observation schedule was predetermined. In line with the ``OPTIMAL'' theory (Wulf \& Lewthwaite, 2016), the Self-Controlled group reported significantly higher perceived autonomy-support than both the Traditional and Explicit Yoked groups. However, this boost in perceived autonomy did not lead to enhanced motor performance or learning. These findings from a well-powered experiment are difficult to reconcile with a core pillar of the ``OPTIMAL'' theory of motor learning.
+It has been argued that self-controlled practice conditions are effective for motor learning because they are autonomy-supportive in nature (Wulf \& Lewthwaite, 2016). Yet, this claim has received, at best, modest support in the motor learning literature (e.g., McKay \& Ste-Marie, 2020a; but see Barros et al., 2019; Carter \& Ste-Marie, 2017b; Ste-Marie et al., 2013 for non-support). Here, we addressed a possible methodological limitation for this lack of support. That is, in previous self-controlled motor learning research, participants in the yoked group are not made aware that they have been denied opportunities to exercise choice over a practice variable such as feedback or watching a modeled demonstration. In the present experiment we introduced a novel yoked group that was explicitly told that the observation schedule---frequency and speed of video---they would receive during practice was actually one created by another participant in the experiment. Contrary to our prediction, the Explicit Yoked group did not report significantly lower perceived autonomy scores than the Traditional Yoked group, which was only informed their observation schedule was predetermined. In line with the ``OPTIMAL'' theory (Wulf \& Lewthwaite, 2016), the Self-Controlled group reported significantly higher perceived autonomy-support than both the Traditional and Explicit Yoked groups. However, this boost in perceived autonomy did not lead to enhanced motor performance or learning. These findings from a preregistered experiment are difficult to reconcile with a core pillar of the ``OPTIMAL'' theory of motor learning.
 
 \hypertarget{self-controlled-practice-conditions-as-autonomy-supportive}{%
 \subsection{Self-controlled practice conditions as autonomy-supportive}\label{self-controlled-practice-conditions-as-autonomy-supportive}}
@@ -379,9 +361,25 @@ Despite the large sample size of the present experiment (\emph{n}/group = 50) ve
 
 Within the ``OPTIMAL'' theory (Wulf \& Lewthwaite, 2016), it is predicted that practice conditions that promote autonomy-support and enhance expectancies contribute to a virtuous cycle that leads to superior motor performance and learning. In other words, significant group differences between self-controlled and yoked groups would be expected on measures related to these psychological constructs. As mentioned earlier, we found higher perceptions of autonomy-support in our Self-Controlled group relative to the Traditional and Explicit Yoked groups; however, this did not enhance motor learning as predicted within the virtuous cycle. Contrary to the ``OPTIMAL'' theory, we did not find an effect of group for perceived competence (i.e., enhanced expectancies) or intrinsic motivation. Perceived competence scores did increase across acquisition blocks, which mirrors the improved motor performance seen throughout acquisition. These results are in line with results of a path analysis that suggested self-efficacy (i.e., enhanced expectancies) and intrinsic motivation were insufficient to explain self-controlled learning benefits (Ste-Marie et al., 2016). Overall, our results are inconsistent with key predictions of the ``OPTIMAL'' theory regarding autonomy-support and enhanced expectancies, and further question the causal role such manipulations play in motor learning.
 
-In sum, we found that being able to control two aspects of one's observation schedule during practice was perceived as autonomy-supportive relative to not having this same control opportunity. However, making participants in an Explicit Yoked group aware they would be denied a control opportunity during practice did not decrease perceptions of autonomy relative to participants in the Traditional Yoked group. Furthermore, we did not find evidence than an autonomy-supportive manipulation had any direct causal effect on learning and we also failed to replicate the typical self-controlled learning advantage. It is worth noting that in some situations autonomy-support in and of itself might be a desired affective outcome (Ste-Marie et al., 2020). In such circumstance, providing learners with choice opportunities may be a useful motivationally-protective outcome. However, such a tool should be used judiciously as it is typically motor outcomes in the form of relatively permanent performance changes that is the true goal of any motor learning intervention (Ste-Marie et al., 2020). Ultimately, our results add to a growing body of evidence that questions whether autonomy-supportive manipulations directly affect learning. One explanation for this lack of replicability is that the \emph{``true''} effect of such manipulations are much smaller than previously estimated (McKay et al., 2021). Given the resources required (in terms of sample size) to reliably detect the tiny effects, we encourage motor learning scientists to invest their limited resources carefully---either studying practice conditions that have much bigger effects or devising ways to reduce variability and increase power through clever experimental design (McClelland, 2000).
+In sum, we found that being able to control two aspects of one's observation schedule during practice was perceived as autonomy-supportive relative to not having this same control opportunity. However, making participants in an Explicit Yoked group aware they would be denied a control opportunity during practice did not decrease perceptions of autonomy relative to participants in the Traditional Yoked group. Furthermore, we did not find evidence than an autonomy-supportive manipulation had any direct causal effect on learning and we also failed to replicate the typical self-controlled learning advantage. It is worth noting that in some situations autonomy-support in and of itself might be a desired affective outcome (Ste-Marie et al., 2020). In such circumstances, providing learners with choice opportunities may be a useful motivationally-protective outcome. However, such a tool should be used judiciously as it is typically motor outcomes in the form of relatively permanent performance changes that is the true goal of any motor learning intervention (Ste-Marie et al., 2020). Ultimately, our results add to a growing body of evidence that questions whether autonomy-supportive manipulations directly affect motor learning. One explanation for this lack of replicability is that the \emph{``true''} effect of such manipulations are much smaller than previously estimated (McKay et al., 2021). Given the resources required (in terms of sample size) to reliably detect these tiny effects, we encourage motor learning scientists to invest their limited resources carefully---either studying practice conditions that have much bigger effects or devising ways to reduce variability and increase power through clever experimental design (McClelland, 2000).
 
-\newpage
+\vfill
+
+\hypertarget{contributions-using-credit-httpscasrai.orgcredit}{%
+\section{\texorpdfstring{Contributions using CrediT (\url{https://casrai.org/credit/})}{Contributions using CrediT (https://casrai.org/credit/)}}\label{contributions-using-credit-httpscasrai.orgcredit}}
+
+Conceptualization (LSG, KRL, MJC); Data curation (LSG, KRL, MJC); Formal analysis (LSG, KRL, MJC); Funding acquisition (MJC); Investigation - Performed Experiment (LSG, AW, NB, AP, OL); Methodology (LSG, KRL, MJC); Project administration (LSG, MJC); Resources (MJC); Software - Task Programming (LSG, MJC); Supervision (MJC); Validation (LSG, KRL, MJC); Visualization (LSG, MJC); Writing - Original Draft Preparation (LSG, AW, NB, KRL, MJC); Writing - Review \& Editing (LSG, AW, NB, AP, OL, KRL, MJC)
+
+\hypertarget{data-materials-and-code-availability}{%
+\section{Data, materials, and code availability}\label{data-materials-and-code-availability}}
+
+\label{sec:sharing}
+All material, data, and scripts to reproduce our analyses and figures can be accessed here: \url{https://github.com/cartermaclab/expt_explicit-yoked}. The preregistration can be accessed here: \url{https://aspredicted.org/ze8cj.pdf}.
+
+\hypertarget{r-packages-used-in-this-project}{%
+\section{R packages used in this project}\label{r-packages-used-in-this-project}}
+
+R {[}Version 4.1.0; R Core Team (2021){]} and the R-packages \emph{cowplot} {[}Version 1.1.1; Wilke (2020){]}, \emph{ggplot2} {[}Version 3.3.3; Wickham (2016){]}, \emph{jmv} {[}Version 1.2.23; Selker et al. (2020){]}, \emph{kableExtra} {[}Version 1.3.4; Zhu (2021){]}, \emph{papaja} {[}Version 0.1.0.9997; Aust and Barth (2020){]}, \emph{pwr} {[}Version 1.3.0; Champely (2020){]}, \emph{tidyverse} {[}Version 1.3.1; Wickham et al. (2019){]}, and \emph{TOSTER} {[}Version 0.4.0; Lakens (2017){]}.
 
 \hypertarget{conflict-of-interest}{%
 \section{Conflict of interest}\label{conflict-of-interest}}
@@ -391,19 +389,7 @@ The authors declare no competing interests.
 \hypertarget{funding}{%
 \section{Funding}\label{funding}}
 
-This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC). LSG was also supported by an NSERC PGS-D scholarship.
-
-\hypertarget{data-and-code-availability}{%
-\section{Data and code availability}\label{data-and-code-availability}}
-
-All material, data, and scripts to reproduce our analyses and figures can be accessed here: \url{https://github.com/cartermaclab/expt_explicit-yoked}.
-
-\hypertarget{r-packages-used-in-this-project}{%
-\section{R packages used in this project}\label{r-packages-used-in-this-project}}
-
-R {[}Version 4.0.5; R Core Team (2021){]} and the R-packages \emph{cowplot} {[}Version 1.1.1; Wilke (2020){]}, \emph{jmv} {[}Version 1.2.23; Selker et al. (2020){]}, \emph{papaja} {[}Version 0.1.0.9997; Aust and Barth (2020){]}, \emph{pwr} {[}Version 1.3.0; Champely (2020){]}, \emph{tidyverse} {[}Version 1.3.1; Wickham et al. (2019){]}, and \emph{TOSTER} {[}Version 0.3.4; Lakens (2017){]}.
-
-\newpage
+This work was supported by the Natural Sciences and Engineering Research Council (NSERC) of Canada (RGPIN-2018-05589; MJC). LSG was supported by an NSERC Postgraduate Scholarship. AW and AP were supported by NSERC Undergraduate Student Research Awards.
 
 \hypertarget{references}{%
 \section{References}\label{references}}
@@ -555,6 +541,9 @@ Ste-Marie, D. M., Lelievre, N., \& Germain, L. S. (2020). Revisiting the applied
 \leavevmode\hypertarget{ref-ste-marie2013}{}%
 Ste-Marie, D. M., Vertes, K. A., Law, B., \& Rymal, A. M. (2013). Learner-controlled self-observation is advantageous for motor skill acquisition. \emph{Frontiers in Psychology}, \emph{3}. \url{https://doi.org/10.3389/fpsyg.2012.00556}
 
+\leavevmode\hypertarget{ref-R-ggplot2}{}%
+Wickham, H. (2016). \emph{ggplot2: Elegant graphics for data analysis}. Springer-Verlag New York. \url{https://ggplot2.tidyverse.org}
+
 \leavevmode\hypertarget{ref-R-tidyverse}{}%
 Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L. D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T. L., Miller, E., Bache, S. M., Müller, K., Ooms, J., Robinson, D., Seidel, D. P., Spinu, V., \ldots{} Yutani, H. (2019). Welcome to the {tidyverse}. \emph{Journal of Open Source Software}, \emph{4}(43), 1686. \url{https://doi.org/10.21105/joss.01686}
 
@@ -572,6 +561,9 @@ Wulf, G., Lewthwaite, R., Cardozo, P., \& Chiviacowsky, S. (2018). Triple play: 
 
 \leavevmode\hypertarget{ref-wulf2005}{}%
 Wulf, G., Raupach, M., \& Pfeiffer, F. (2005). Self-controlled observational practice enhances learning. \emph{Research Quarterly for Exercise and Sport}, \emph{76}(1), 107--111. \url{https://doi.org/10.1080/02701367.2005.10599266}
+
+\leavevmode\hypertarget{ref-R-kableExtra}{}%
+Zhu, H. (2021). \emph{kableExtra: Construct complex table with 'kable' and pipe syntax}. \url{https://CRAN.R-project.org/package=kableExtra}
 
 \end{CSLReferences}
 
