@@ -1,0 +1,72 @@
+---
+title       : "Increased perceptions of autonomy through choice fail to enhance motor skill retention"
+authors     : "Laura St. Germain, Allison Williams, Noura Balbaa, Andrew Poskus, Olena Leshchyshen, Keith R. Lohse & Michael J. Carter"
+journal     : "Journal of Experimental Psychology: Human Perception and Performance"
+manuscript  : "XHP-2021-1912"
+
+class       : "final" # draft or final
+
+output      : papaja::revision_letter_pdf
+---
+
+Jacqueline Clare Snow, PhD  
+Associate Editor  
+*Journal of Experimental Psychology: Human Perception and Performance*
+
+Dear Dr. Snow,
+
+Thank you for taking the time to consider our manuscript for publication at _`r rmarkdown::metadata$journal`_. We have read the comments provided by the Reviewers and have revised the manuscript accordingly. We thank the Reviewers for their helpful and insightful comments. Below we provide a point-by-point reply to the Reviewer comments (in bold-italic) and our responses in normal text. Any changes that have been made to the original submission are included in the response letter (in a text box) and are in red font in the revised manuscript to facilitate further review.
+
+Kind regards,
+
+Laura St. Germain  
+Allison Williams  
+Noura Balbaa  
+Andrew Poskus  
+Olena Leshchyshen  
+Keith R. Lohse  
+Michael J. Carter
+
+
+# Reviewer \#1
+
+\RC{\emph{The authors provide a well-thought-out and clearly presented research design with clear theoretical implications. In particular, the analyses were very appropriate and should serve as an example for others conducting similar work. Though I carefully reviewed the manuscript, I do not have any specific suggested changes or questions for the authors. Though certainly not necessary for publication, the authors may wish consider the work of Katz and Assor (2007) surrounding choice and motivation from a Self Determination Theory perspective, as this seems to be relevant to the present findings. 
+}}
+
+Thank you for the positive comments about our manuscript and for sharing the reference to Katz and Assor (2007).
+
+# Reviewer \#2
+
+\RC{\emph{The authors submitted a well written manuscript reporting a pre-registered experiment that investigated the effect of awareness of being denied control over two relevant variables of the practice environment (i.e., frequency and speed of video demonstration) as participants learned the speed cup-stacking task. Results revealed that participants allowed to choose when to watch and the speed of the video demonstrations (i.e., self-controlled group) showed higher perceived autonomy scores when compared to yoked participants who received the demonstrations in matched schedule to a self-controlled counterpart and were either explicitly aware of this information (Explicit Yoked) or not (Traditional Yoked). However, the authors failed to replicate the so-called self-control learning benefit as no differences between groups were found in the retention test. Additionally, groups did not differ in self-reported measures of perceived competence and intrinsic motivation.}
+
+\emph{Overall, I think this paper can be a valuable addition to the literature. The study is methodologically strong, it has one of the largest sample sizes reported in the motor learning literature, the authors pre-registered the main analyses, carried out a power calculation, and equivalence test, and heartfully embraced open science practices (I was able to easily reproduce the analyses/figures reported in the paper). However, I do have a few concerns/recommendations that, if addressed, can help to further improve the paper. 
+}}
+
+Thank your for the positive general comments about our manuscript. We are pleased to hear that you were able to reproduce the analyses and figures. Below are the responses to your specific comments. Given the length of the first comment, we have split it into multiple comments to facilitate our response.
+
+\RC{\emph{My major concern is how the study's rationale and relevance are framed. The authors start by questioning the role played by autonomy support in practice conditions wherein provision of choice is manipulated. They argued that "if the benefits are the result of having opportunities for choice then learning differences should not emerge between different self-controlled groups" [Page 5, line 7]. However, this claim disregards another possible explanation for the self-control learning benefit, namely information processing factors (Barros et al., 2019).
+}}
+
+
+
+
+# Reviewer \#3
+
+\RC{\emph{It was a pleasure to read and review your article "Increased perceptions of autonomy through choice fail to enhance motor skill retention" submitted to the Journal of Experimental Psychology: Human Perception and Performance. Your writing is apparent and concise. This article examines autonomy-support during the speed cup-stacking task. There were three conditions: the self-control group, the traditional yoked group, and the explicit yoked group. The results suggest that there are no statistically significant learning differences between the groups. 
+}}
+
+This is our response.
+
+> This is a section quoted from the revised manuscript to illustrate the change.
+
+
+
+\clearpage
+
+# References
+
+\begingroup
+
+<div id="refs"></div>
+
+\endgroup
